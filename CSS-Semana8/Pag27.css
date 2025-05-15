@@ -1,0 +1,12 @@
+
+/*Todos os elementos da classe CENTER*/
+.center{
+    text-align: center;
+    color: red;
+}
+
+/*Todos os elementos da tag <P> com classe CENTER*/
+p.center{
+    text-align: center;
+    color: red;
+}

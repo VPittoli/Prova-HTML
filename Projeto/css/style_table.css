@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tabela-economias thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tabela-economias {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #333;
+}
+
+.tabela-economias th,
+.tabela-economias td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabela-economias tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

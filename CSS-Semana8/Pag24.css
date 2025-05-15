@@ -1,0 +1,11 @@
+
+/* Estilizar CSS*/
+p{
+    text-align: center;
+    color: red;
+}
+/* Estilizar CSS para varios grupos*/
+h1,h2,p{
+    text-align: center;
+    color: red;
+}

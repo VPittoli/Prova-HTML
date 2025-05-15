@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contatos</title>
+</head>
+<body>
+
+    <main>
+        <form action="enviar.php" method="post">
+            <label for="nome">Nome:</label><br />
+            <input type="text" id="nome" name="nome" required /><br />
+
+            <label for="dataNascimento">Data de Nascimento:</label><br />
+            <input type="date" id="dataNascimento" name="dataNascimento" required /><br />
+
+            <label for="celular">Celular:</label><br />
+            <input type="tel" id="celular" name="celular" pattern="\d{2}-\d{5}-\d{4}" 
+                   placeholder="19-98633-1100" required /><br />
+
+            <label for="mensagem">Mensagem:</label><br />
+            <textarea id="mensagem" name="mensagem" rows="10" cols="30" required></textarea><br />
+
+            <input type="reset" value="Limpar" />
+            <input type="submit" value="Enviar Sua Resposta" />
+        </form>
+    </main>
+
+</body>
+</html>

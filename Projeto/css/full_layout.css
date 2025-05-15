@@ -1,0 +1,131 @@
+/* Estilos globais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo por classe: Header */
+.site-header {
+    height: 90px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo por classe: Container principal */
+.container {
+    display: flex;
+    min-height: calc(100vh - 140px); /* 100vh - header + footer */
+}
+
+/* Estilo por classe: Navbar lateral */
+.sidebar-nav {
+    width: 200px;
+    background-color: #0a2a66; /* Azul escuro */
+    padding: 20px;
+}
+
+/* Menu de blocos (ul) */
+.menu-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para os Links e texto dos menus, inclusive o Link 3 */
+.menu-links li a,
+.menu-links li .menu-item {
+    display: block;
+    background-color: #0a2a66; /* mesmo azul escuro do menu */
+    color: white; /* Mantém o branco no texto */
+    /* margin-bottom: 10px; */
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover geral nos itens normais e também no span "Link 3" */
+.menu-links li a:hover,
+.menu-links li .menu-item:hover {
+    background-color: #3b5fa3; /* Azul médio para hover */
+    color: white;
+}
+
+/* Estilo por classe: Conteúdo principal */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.conteudo-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    min-height: 100%;
+}
+
+/* Estilo por classe: Rodapé */
+.site-footer {
+    height: 50px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para sub-menu */
+.sub-menu-links {
+    list-style: none;
+    padding-left: 20px; /* recuo para indicar subnível */
+    margin-top: 5px;
+}
+
+.sub-menu-links li a {
+    display: block;
+    background-color: #0a2a66;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 0.9em;
+}
+
+.sub-menu-links li a:hover {
+    background-color: #3b5fa3; 
+}
+
+/* Estilo para item que tem sub-menu */
+.has-submenu {
+    position: relative;
+}
+
+/* Sub-menu inicialmente escondido */
+.has-submenu .sub-menu-links {
+    display: none;
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+/* Mostrar sub-menu ao passar o mouse */
+.has-submenu:hover .sub-menu-links {
+    display: block;
+}
+
+/* Estilo dos sub-links */
+.sub-menu-links li a {
+    display: block;
+    background-color: #0a2a66;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 0.9em;
+}
+
+/* Hover nos sub-links */
+.sub-menu-links li a:hover {
+    background-color: #3b5fa3;
+}

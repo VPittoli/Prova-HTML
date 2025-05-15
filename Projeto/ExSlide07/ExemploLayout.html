@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Layout com Iframe</title>
+    <link rel="stylesheet" type="text/css" href="../css/full_layout.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Topo do Site</h1>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar-nav">
+            <ul class="menu-links">
+                <li><a href="Bordas.html" target="conteudo-frame">Bordas</a></li>
+                <li><a href="Tabelas.html" target="conteudo-frame">Tabelas</a></li>
+                <li class="has-submenu">
+                    <span class="menu-item">Navegação ▼</span>
+                    <ul class="sub-menu-links">
+                        <li><a href="Navegacao.html" target="conteudo-frame">Barra NAV</a></li>
+                        <li><a href="pagina3b.html" target="conteudo-frame">Sub-Link 3B</a></li>
+                    </ul>
+                </li>
+                <li><a href="pagina4.html" target="conteudo-frame">Link 4</a></li>
+                <li><a href="../ExSlide05/Contato.html" target="conteudo-frame">Contato</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <iframe name="conteudo-frame" class="conteudo-frame" src="" frameborder="0"></iframe>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>Rodapé do Site</p>
+    </footer>
+</body>
+</html>

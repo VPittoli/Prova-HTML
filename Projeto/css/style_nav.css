@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /*background-color: lightblue;*/
+    /*background-image: url('../images/image-f1.jpg');*/
+}
+
+.menu-navegacao {
+    /* position: fixed; */
+    top: 0; /* posicionaria no topo */
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Torna o menu horizontal */
+    background-color: #222; /* Fundo do menu */
+    overflow: hidden; /* evita que elementos "transbordem" e causem barras
+                         de rolagem ou quebra de layout. */
+}
+
+.menu-navegacao li a {
+    display: block;
+    background-color: #222; /* Tom preto mais suave */
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.menu-navegacao li a:hover {
+    background-color: #4CAF50; /* Verde de tom médio */
+    color: white;
+}
