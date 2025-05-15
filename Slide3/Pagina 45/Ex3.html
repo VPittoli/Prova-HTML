@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1 da Pagina 45 do Slide 3</title>
+</head>
+<body>
+    <p>Botão com Som do Ratinho</p>
+    <img id="botaoRatinho" src="Botao.jpg" alt="Botao" style="width: 250px; cursor: pointer;">
+    <audio id="somRatinho" src="uepa-mp3cut.mp3"></audio>
+
+    <p>Vídeo de Xadrez</p>
+    <video controls width="250">
+        <source src="Mate-Pastor.mp4" type="video/webm">
+    </video>
+    <script>
+        const botao = document.getElementById('botaoRatinho');
+        const som = document.getElementById('somRatinho');
+
+        botao.addEventListener('click', () => {
+            som.currentTime = 0; // Reinicia o som se já estiver tocando
+            som.play();
+        });
+    </script>
+</body>
+</html>
