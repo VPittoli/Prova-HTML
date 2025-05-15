@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.topo {
+  background-color: limegreen;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu {
+  background-color: blue;
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
+
+.conteudo {
+  flex: 1;
+  background-color: deepskyblue;
+  color: black;
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape {
+  background-color: limegreen;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}

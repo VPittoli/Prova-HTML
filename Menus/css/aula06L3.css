@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.topo {
+  background-color: limegreen;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 140px); /* 100% altura - topo (70px) - rodapé (70px) */
+}
+
+.lateral-esquerda,
+.lateral-direita {
+  width: 20%;
+  background-color: blue;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.conteudo {
+  width: 60%;
+  background-color: deepskyblue;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.rodape {
+  background-color: limegreen;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
